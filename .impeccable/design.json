@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-04T10:49:47Z",
+  "title": "Design System: Aryan Bhargav Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "cobalt-cover": {
+        "role": "primary",
+        "displayName": "Cobalt Cover",
+        "canonical": "#2549df",
+        "tonalRamp": ["#07164f", "#1734b8", "#2549df", "#4563dc", "#748ae4", "#aab8ea", "#d2daf6", "#f1f3fd"]
+      },
+      "cobalt-deep": {
+        "role": "primary",
+        "displayName": "Cobalt Deep",
+        "canonical": "#1734b8",
+        "tonalRamp": ["#07133f", "#0d236f", "#1734b8", "#3c58cc", "#697ddd", "#99a7e9", "#cbd2f5", "#f2f4fc"]
+      },
+      "activity-low": {
+        "role": "primary",
+        "displayName": "Activity Low",
+        "canonical": "#aab8ea",
+        "tonalRamp": ["#111733", "#252f65", "#3f519b", "#6679c5", "#8f9fdd", "#aab8ea", "#d4daf5", "#f3f5fc"]
+      },
+      "activity-medium": {
+        "role": "primary",
+        "displayName": "Activity Medium",
+        "canonical": "#748ae4",
+        "tonalRamp": ["#0d153e", "#1d2d75", "#334baa", "#526bcf", "#748ae4", "#9babec", "#cad2f6", "#f1f3fc"]
+      },
+      "activity-high": {
+        "role": "primary",
+        "displayName": "Activity High",
+        "canonical": "#4563dc",
+        "tonalRamp": ["#09133f", "#152a76", "#2844ae", "#4563dc", "#7085e6", "#9aa9ee", "#cad2f7", "#f1f3fd"]
+      },
+      "mineral-paper": {
+        "role": "neutral",
+        "displayName": "Mineral Paper",
+        "canonical": "#e8ebe6",
+        "tonalRamp": ["#20251f", "#3e453d", "#626b60", "#899287", "#b1b8af", "#d2d7d0", "#e8ebe6", "#f6f7f3"]
+      },
+      "bright-paper": {
+        "role": "neutral",
+        "displayName": "Bright Paper",
+        "canonical": "#f6f7f3",
+        "tonalRamp": ["#242722", "#474b45", "#6e746c", "#999e96", "#c2c6bf", "#e1e3de", "#f0f2ed", "#f6f7f3"]
+      },
+      "ledger-ink": {
+        "role": "neutral",
+        "displayName": "Ledger Ink",
+        "canonical": "#151914",
+        "tonalRamp": ["#151914", "#30362f", "#515850", "#747c72", "#9aa198", "#c0c6be", "#e1e5df", "#f6f7f3"]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#596259",
+        "tonalRamp": ["#171b17", "#333a33", "#596259", "#778177", "#9aa29a", "#bdc3bc", "#dfe3de", "#f6f7f3"]
+      },
+      "soft-rule": {
+        "role": "neutral",
+        "displayName": "Soft Rule",
+        "canonical": "#b7beb5",
+        "tonalRamp": ["#1b201a", "#394039", "#5d665c", "#838c82", "#aab2a8", "#cbd0c9", "#e5e8e3", "#f6f7f3"]
+      },
+      "dark-rule": {
+        "role": "neutral",
+        "displayName": "Dark Rule",
+        "canonical": "#7d887d",
+        "tonalRamp": ["#181c17", "#343a33", "#555d54", "#7d887d", "#9da69c", "#bdc4bc", "#dfe3de", "#f6f7f3"]
+      },
+      "chalk-white": {
+        "role": "neutral",
+        "displayName": "Chalk White",
+        "canonical": "#fbfcf8",
+        "tonalRamp": ["#252823", "#4a4e47", "#737870", "#9da29a", "#c5c9c2", "#e4e6e1", "#f3f5f0", "#fbfcf8"]
+      }
+    },
+    "typographyMeta": {
+      "hero-display": {
+        "displayName": "Hero Display",
+        "purpose": "Opening thesis and operating principle only."
+      },
+      "hero-display-small": {
+        "displayName": "Small-Screen Hero Display",
+        "purpose": "Fluid opening thesis below the ledger-stack breakpoint."
+      },
+      "hero-display-compact": {
+        "displayName": "Compact Hero Display",
+        "purpose": "Fixed opening thesis size in the narrowest gutter mode."
+      },
+      "ledger-display": {
+        "displayName": "Ledger Display",
+        "purpose": "The main evidence-section proposition."
+      },
+      "section-headline": {
+        "displayName": "Section Headline",
+        "purpose": "Section conclusions and major calls to action."
+      },
+      "principle-display": {
+        "displayName": "Principle Display",
+        "purpose": "The centered operating principle."
+      },
+      "bet-statement": {
+        "displayName": "Bet Statement",
+        "purpose": "The core proposition inside the cobalt thesis panel."
+      },
+      "title": {
+        "displayName": "Ledger Title",
+        "purpose": "Ledger column headings."
+      },
+      "entry-title": {
+        "displayName": "Entry Title",
+        "purpose": "Individual commercial and software evidence names."
+      },
+      "body": {
+        "displayName": "Editorial Body",
+        "purpose": "Narrative, evidence descriptions, and explanatory copy."
+      },
+      "hero-body": {
+        "displayName": "Hero Body",
+        "purpose": "Opening context beside the primary claim."
+      },
+      "intro-body": {
+        "displayName": "Intro Body",
+        "purpose": "Evidence-section introduction."
+      },
+      "thesis-body": {
+        "displayName": "Thesis Body",
+        "purpose": "Supporting explanation inside the current-bet panel."
+      },
+      "evidence-body": {
+        "displayName": "Evidence Body",
+        "purpose": "Descriptions inside ledger rows."
+      },
+      "utility": {
+        "displayName": "Utility Action",
+        "purpose": "Wordmark and prominent text actions."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "Desktop navigation and secondary research copy."
+      },
+      "navigation-mobile": {
+        "displayName": "Mobile Navigation",
+        "purpose": "Compact navigation links."
+      },
+      "wordmark-mobile": {
+        "displayName": "Mobile Wordmark",
+        "purpose": "Compact-site signature."
+      },
+      "footer-link": {
+        "displayName": "Footer Link",
+        "purpose": "Closing utility navigation."
+      },
+      "label-fluid": {
+        "displayName": "Fluid Evidence Label",
+        "purpose": "Proof-strip labels that adapt across desktop widths."
+      },
+      "label": {
+        "displayName": "Evidence Label",
+        "purpose": "Dates, outcomes, statuses, totals, and caveats."
+      },
+      "label-regular": {
+        "displayName": "Regular Evidence Label",
+        "purpose": "Ledger dates, outcomes, and calendar details."
+      },
+      "label-compact": {
+        "displayName": "Compact Evidence Label",
+        "purpose": "Column captions, caveats, and copyright text."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "skip-link-reveal",
+        "value": "180ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Moves the keyboard skip link into view without animating page content."
+      },
+      {
+        "name": "filing-cover-entrance",
+        "value": "420-700ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Writes the cover rules and settles the thesis and proof labels once on page load."
+      },
+      {
+        "name": "project-arrow-reveal",
+        "value": "opacity 120ms linear, transform 180ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Reveals outbound intent on precise-pointer hover; keyboard focus is immediate."
+      }
+    ],
+    "breakpoints": [
+      { "name": "supporting-layout-stack", "value": "900px" },
+      { "name": "ledger-stack", "value": "700px" },
+      { "name": "compact-gutter", "value": "430px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Cover Navigation",
+      "kind": "nav",
+      "description": "Compact text navigation on the cobalt opening field.",
+      "html": "<nav class=\"ds-nav\"><strong>Aryan Bhargav</strong><span><a href=\"#work\">Work</a><a href=\"#github\">GitHub ↗</a><a href=\"mailto:hey@example.com\">Email</a></span></nav>",
+      "css": ".ds-nav { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 32px; padding: 0 24px; color: #fbfcf8; background: #2549df; border-bottom: 1px solid rgba(251,252,248,.46); font-family: Archivo, sans-serif; } .ds-nav span { display: flex; gap: 32px; } .ds-nav a { min-height: 44px; display: inline-flex; align-items: center; color: inherit; text-decoration: none; } .ds-nav a:hover { text-decoration: underline; text-underline-offset: .24em; } .ds-nav a:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }"
+    },
+    {
+      "name": "Text Action",
+      "kind": "custom",
+      "refersTo": "action-link",
+      "description": "A typographic call to action with a directional cue instead of a filled button.",
+      "html": "<a class=\"ds-action\" href=\"#evidence\">Inspect the work ↓</a>",
+      "css": ".ds-action { min-height: 44px; display: inline-flex; align-items: center; gap: 12px; color: #1734b8; font: 700 16px/1.5 Archivo, sans-serif; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .24em; } .ds-action:hover { color: #2549df; } .ds-action:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }"
+    },
+    {
+      "name": "Ledger Entry",
+      "kind": "custom",
+      "refersTo": "evidence-panel",
+      "description": "A dated evidence row separated by a soft filing rule.",
+      "html": "<article class=\"ds-ledger-entry\"><time>Apr 2026</time><div><h3><a href=\"https://www.kapit.dev/\" target=\"_blank\" rel=\"noreferrer\">Kapit API <span aria-hidden=\"true\">↗</span></a></h3><p>An agent-native financial data API built around one schema.</p><strong>Six signups · $0 revenue</strong></div></article>",
+      "css": ".ds-ledger-entry { display: grid; grid-template-columns: 72px minmax(0,1fr); gap: 24px; padding: 32px 0; color: #151914; background: #e8ebe6; border-bottom: 1px solid #b7beb5; font-family: Archivo, sans-serif; } .ds-ledger-entry time, .ds-ledger-entry strong { font: 400 12px/1.5 'Fragment Mono', monospace; text-transform: uppercase; } .ds-ledger-entry time, .ds-ledger-entry p { color: #596259; } .ds-ledger-entry h3 { margin: 0 0 10px; font-size: 24px; } .ds-ledger-entry h3 a { position: relative; min-height: 44px; display: inline-flex; align-items: center; color: inherit; text-decoration: none; } .ds-ledger-entry h3 a span { position: absolute; left: calc(100% + 7px); opacity: 0; transform: translateX(-6px); } .ds-ledger-entry h3 a:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; } .ds-ledger-entry h3 a:focus-visible span { opacity: 1; transform: translateX(0); } .ds-ledger-entry p { margin: 0 0 20px; max-width: 52ch; } .ds-ledger-entry strong { color: #1734b8; } @media (hover: hover) and (pointer: fine) { .ds-ledger-entry h3 a span { transition: opacity 120ms linear, transform 180ms cubic-bezier(0.16,1,0.3,1); } .ds-ledger-entry h3 a:hover { text-decoration: underline; text-underline-offset: .24em; } .ds-ledger-entry h3 a:hover span { opacity: 1; transform: translateX(0); } .ds-ledger-entry h3 a:focus-visible span { transition: none; } } @media (hover: none) { .ds-ledger-entry h3 a { text-decoration: underline; } }"
+    },
+    {
+      "name": "Thesis Panel",
+      "kind": "custom",
+      "refersTo": "thesis-panel",
+      "description": "A cobalt interruption where accumulated evidence converges into the current bet.",
+      "html": "<section class=\"ds-thesis\"><div><h2>My current bet</h2><strong>Software is moving from tools people operate to systems that do the work.</strong></div><p>I am looking for a narrow, painful workflow an agent can own end to end.</p></section>",
+      "css": ".ds-thesis { display: grid; grid-template-columns: 1.05fr .95fr; gap: 72px; padding: 56px; color: #fbfcf8; background: #2549df; font-family: Archivo, sans-serif; } .ds-thesis h2 { margin: 0 0 32px; font-size: 48px; line-height: .98; letter-spacing: -.035em; } .ds-thesis strong { display: block; max-width: 17ch; font-size: 32px; line-height: 1.05; } .ds-thesis p { align-self: end; margin: 0; max-width: 41rem; font-size: 18px; line-height: 1.55; }"
+    },
+    {
+      "name": "Contribution Calendar Shell",
+      "kind": "custom",
+      "description": "A keyboard-focusable, horizontally scrollable evidence container restricted to 2026 activity.",
+      "html": "<div class=\"ds-calendar\" tabindex=\"0\" aria-label=\"Scrollable 2026 contribution calendar\"><div class=\"ds-calendar-grid\">2026 public contribution calendar</div></div>",
+      "css": ".ds-calendar { width: 100%; max-width: 100%; overflow-x: auto; color: #151914; background: #e8ebe6; border: 1px solid #7d887d; scrollbar-color: #2549df #b7beb5; } .ds-calendar:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; } .ds-calendar-grid { min-width: 704px; min-height: 200px; display: grid; place-items: center; padding: 24px; color: #596259; font: 400 12px/1.5 'Fragment Mono', monospace; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Two Ledgers, One Bet",
+    "overview": "The visual system treats a personal portfolio as an annual filing rather than a promotional deck. A cobalt cover makes one blunt opening claim; mineral paper then carries two evidence ledgers, a current thesis, a public build record, and a direct invitation to talk. The mood is candid, exacting, contemporary, and materially flat.\n\nDensity is intentional. Large condensed statements create conviction, while monospaced dates and outcomes make claims feel measured rather than embellished. Rules and tonal fields provide all structure; conventional cards, ornamental illustrations, and decorative effects would weaken the premise.",
+    "keyCharacteristics": [
+      "Saturated cobalt cover against cool mineral paper.",
+      "Condensed grotesk statements paired with monospaced evidence labels.",
+      "Square geometry, strict rules, and no shadows.",
+      "Two-column evidence that becomes one continuous ledger on small screens.",
+      "One restrained filing-cover entrance, followed by fast navigation and state feedback."
+    ],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "Cobalt is the only chromatic accent. Do not introduce competing semantic colors unless the product gains a real state that requires them.", "section": "colors" },
+      { "name": "The Paper Rule", "body": "Evidence lives on cool mineral surfaces, not pure white cards floating over a generic page background.", "section": "colors" },
+      { "name": "The Compression Rule", "body": "Condensed width is for conviction, not every sentence. Body copy remains at normal width for legibility.", "section": "typography" },
+      { "name": "The Evidence Rule", "body": "Dates, measurements, statuses, and caveats use the mono voice; narrative prose does not.", "section": "typography" },
+      { "name": "The Filed-Flat Rule", "body": "Do not use box shadows, glass effects, blurs, or simulated elevation. Separate information with rules, spacing, and material color.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do pair ambitious statements with nearby evidence or an explicit unknown.",
+      "Do use rules and spacing to organize dense information.",
+      "Do preserve visible focus, 44px mobile targets, strong contrast, and reduced-motion behavior.",
+      "Do let cobalt fields mark the opening claim and the current thesis.",
+      "Do keep labels factual, short, and typographically distinct from narrative copy."
+    ],
+    "donts": [
+      "Don't turn projects into interchangeable rounded cards or a conventional resume grid.",
+      "Don't add gradients, shadows, glassmorphism, glow, or decorative badges.",
+      "Don't use cobalt as a casual highlight inside every paragraph; its scarcity gives it authority.",
+      "Don't hide uncertainty behind startup language, fabricated traction, or unsupported claims.",
+      "Don't allow wide evidence such as the contribution calendar to create document-level overflow."
+    ]
+  }
+}
